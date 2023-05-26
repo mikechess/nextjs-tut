@@ -1,3 +1,4 @@
+import Header from '@/components/Header/Header';
 import './globals.css'
 import { Poppins } from 'next/font/google'
 
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body 
         className="bg-primary-gradient font-poppins min-h-screen"
       >
+        <Header />
         {children}
       </body>
     </html>
