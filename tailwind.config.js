@@ -13,9 +13,15 @@ module.exports = {
         poppins: ["var(--font-poppins)", ...fontFamily.sans],
       },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        "primary-gradient":
+        "linear-gradient(180.96deg, #000000 0.82%, #4A2800 129.1%)",
+      },
+      colors: {
+        primary: {
+          light: "3fcc182",
+          DEFAULT: "#FA9021",
+          dark: "#af5b04",
+        },
       },
     },
   },
